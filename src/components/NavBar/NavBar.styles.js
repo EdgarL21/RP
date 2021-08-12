@@ -2,25 +2,25 @@ import styled from "styled-components";
 
 export const Wrapper = styled.header`
 
- header h1 {
-  /* line-height: normal; */
-}
+ /* header h1 {
+  line-height: normal;
+} */
 
-header::after {
+/* header::after {
   content: "";
   display: table;
   clear: both;
-} 
+}  */
 
 header {
   background: #1a1b26;
 }
-h3 {
+/* h3 {
   color: #bb9af7;
   font-size: 24px;
   float: left;
 
-}
+} */
 
 nav {
   float: right;
