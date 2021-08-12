@@ -5,27 +5,27 @@ const NavBar = () => {
     <Wrapper>
           <header>
             {/* <h3>Edgar's Portfolio</h3> */}
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
             <nav>
               <ul>
                 <li>
-                  <a class="li" href="#About-Me">
+                  <a className="li" href="#About-Me">
                     About Me
                   </a>
                 </li>
                 <li>
-                  <a class="li" href="#Work">
-                    Work
+                  <a className="li" href="#Work">
+                    Portfolio
                   </a>
                 </li>
                 <li>
-                  <a class="li" href="#Contact-Me">
+                  <a className="li" href="#Contact-Me">
                     Contact Me
                   </a>
                 </li>
                 <li>
-                  <a class="li" href="#Resume" target="_blank">
+                  <a className="li" href="#Resume" target="_blank">
                     Resume
                   </a>
                 </li>

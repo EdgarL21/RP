@@ -1,8 +1,9 @@
 // import { GlobalStyle } from "./GlobalStyles";
-import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NavBar from "./components/NavBar";
 import Selfie from "./components/Selfie";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
