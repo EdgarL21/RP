@@ -41,11 +41,15 @@ const Footer = () => {
           </div>
 
           <div className="col-6 col-md-2 contactLinksDiv">
-            <a className="links shadow" href="https://github.com/" target="_blank" rel="noreferrer">
+            <a
+              className="links shadow"
+              href="https://github.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               phone
             </a>
           </div>
-
         </div>
       </div>
     </Wrapper>
