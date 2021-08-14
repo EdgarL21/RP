@@ -13,7 +13,7 @@ const About = () => {
               rel="noreferrer"
             >
               {/* <!-- Large Image  --> */}
-              <div class="img-text">Portfolio Repository</div>
+              <div className="img-text">Portfolio Repository</div>
             </a>
 
             <p className="shadow bio">
