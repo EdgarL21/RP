@@ -1,4 +1,5 @@
 import { Wrapper } from "./NavBar.styles";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -10,19 +11,19 @@ const NavBar = () => {
             <nav>
               <ul>
                 <li>
-                  <a className="li" href="#About-Me">
+                  <Link className="li" to={'/'}>
                     About Me
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="li" href="#Work">
+                  <Link className="li" to={'portfolio'}>
                     Portfolio
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="li" href="#Contact-Me">
-                    Contact Me
-                  </a>
+                  <Link className="li" to={'contact'}>
+                    Contact
+                  </Link>
                 </li>
                 <li>
                   <a className="li" href="#Resume" target="_blank">

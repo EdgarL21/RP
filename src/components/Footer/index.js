@@ -7,7 +7,7 @@ const Footer = () => {
     <Wrapper>
       <div className="container">
         <div className="row">
-          <div class="col-6 col-md-2 contactLinksDiv">
+          <div className="col-6 col-md-2 contactLinksDiv">
             <a
               className="links shadow"
               href="https://twitter.com/explore"

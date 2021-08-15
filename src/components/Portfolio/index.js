@@ -27,7 +27,7 @@
 
 import { useState } from "react";
 import Repos from "../data/repos.json";
-import { Wrapper } from "./Portfolio.styles";
+import { Wrapper, Btn } from "./Portfolio.styles";
 
 const Portfolio = () => {
   const [repos, setRepos] = useState(Repos);
@@ -37,10 +37,22 @@ const Portfolio = () => {
       {repos && (
         <div className="row">
           {repos.map((repo) => (
-            <div className="col-6 col-md-4">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4" key={repo.id}>
               <Wrapper>
-                <div></div>
-                <div>{repo.title}</div>
+                {/* <a href={repo.link}> */}
+                < Btn>
+                  <a href={repo.repo} target="blank">{repo.title} Repository</a>
+                </Btn>
+                <a href={repo.link} target="blank">
+                  <img
+                    src={repo.src}
+                    alt={repo.alt}
+                    width="100%"
+                    height="60%"
+                  ></img>
+                </a>
+                
+                {/* </a> */}
               </Wrapper>
             </div>
           ))}
