@@ -5,7 +5,6 @@
     "src": "./images/password.jpg",
     "alt": "Password Generator Image",
     "link": "https://edgarl21.github.io/PasswordGenerator_3/",
-    "button": "Password Generator Repo",
     "repo" : "https://github.com/EdgarL21/PasswordGenerator_3.git"
   },
   {
@@ -14,7 +13,6 @@
     "src": "./images/quiz.jpg",
     "alt": "Code Quiz Image",
     "link": "https://edgarl21.github.io/CodeQuiz_4/",
-    "button": "Password Generator",
     "repo": "https://github.com/EdgarL21/CodeQuiz_4.git"
   },
   {
@@ -23,7 +21,6 @@
     "src": "./images/Planner.jpg",
     "alt": "Day Planner Image",
     "link": "https://edgarl21.github.io/DayPlanner_5/",
-    "button": "Password Generator",
     "repo": "https://github.com/EdgarL21/DayPlanner_5.git"
   },
   {
@@ -32,7 +29,6 @@
     "src": "./images/Weather.jpg",
     "alt": "Weather Dashborad Image",
     "link": "https://edgarl21.github.io/WeatherDashboard_6/",
-    "button": "Password Generator",
     "repo": "https://github.com/EdgarL21/WeatherDashboard_6.git"
   },
   {
@@ -41,7 +37,6 @@
     "src": "./images/DailyVibes.jpg",
     "alt": "Daily Vibes Image",
     "link": "https://edgarl21.github.io/DailyVibes/",
-    "button": "Password Generator",
     "repo": "https://github.com/EdgarL21/DailyVibes.git"
   },
   {
@@ -50,7 +45,6 @@
     "src": "./images/noteTaker.jpg",
     "alt": "Note Taker Image",
     "link": "https://agile-harbor-48114.herokuapp.com/notes", 
-    "button": "Password Generator",
     "repo": "https://github.com/EdgarL21/NoteTaker.git"
   },
   {
@@ -59,7 +53,14 @@
     "src": "./images/TripScav.jpg",
     "alt": "TripScav Image",
     "link": "https://etripscav.herokuapp.com/",
-    "button": "Password Generator",
     "repo": "https://github.com/EdgarL21/TripScav.git"
+  },
+  {
+    "id": 8,
+    "title": "Workout Tracker",
+    "src": "./images/WorkoutTracker.jpg",
+    "alt": "WorkoutTracker Image",
+    "link": "https://quiet-island-83577.herokuapp.com/",
+    "repo": "https://github.com/EdgarL21/WorkoutTracker.git"
   }
 ]

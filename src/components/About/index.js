@@ -7,7 +7,7 @@ const About = () => {
         <div className="row">
           <div className="col-12 col-md-12">
             <a
-              href="https://github.com/EdgarL21/Portfolio.git"
+              href="https://github.com/EdgarL21/ReactPortfolio.git"
               className="links"
               target="_blank"
               rel="noreferrer"

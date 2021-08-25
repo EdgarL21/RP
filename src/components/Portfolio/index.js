@@ -40,18 +40,21 @@ const Portfolio = () => {
             <div className="col-12 col-sm-12 col-md-6 col-lg-4" key={repo.id}>
               <Wrapper>
                 {/* <a href={repo.link}> */}
-                < Btn>
-                  <a href={repo.repo} target="blank">{repo.title} Repository</a>
+                <Btn>
+                  <a href={repo.repo} target="blank">
+                    {repo.title} Repository
+                  </a>
                 </Btn>
                 <a href={repo.link} target="blank">
                   <img
+                    className="image"
                     src={repo.src}
                     alt={repo.alt}
                     width="100%"
                     height="60%"
                   ></img>
                 </a>
-                
+
                 {/* </a> */}
               </Wrapper>
             </div>

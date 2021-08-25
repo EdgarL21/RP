@@ -21,6 +21,12 @@ export const Wrapper = styled.div`
   /* border-right: 2px solid black; */
   border-radius: 1rem;
 
+  img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    border-radius: 20px;
+  }
+
   /* .btn {
     border-radius: 1px;
 } */
@@ -35,10 +41,10 @@ export const Btn = styled.div`
   margin: 1em;
   border-radius: 1em;
   list-style: none;
-  
+
   a {
-      color: inherit;
-      text-decoration: none;
+    color: inherit;
+    text-decoration: none;
   }
 
   a:hover {
