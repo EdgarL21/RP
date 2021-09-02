@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
-      <GlobalStyle />
+        <GlobalStyle />
 
         <div>
           <Switch>

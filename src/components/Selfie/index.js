@@ -4,7 +4,7 @@ const Selfie = () => {
   return (
     <Wrapper>
       <div className="selfie-background">
-        <img className="selfie" src="./images/IMG_2086 (2).JPG" alt="selfie"/>
+        <img className="selfie" src="./public/images/selfie.jpg" alt="selfie" />
       </div>
     </Wrapper>
   );
